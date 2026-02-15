@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact - Tzatziki</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<!-- Header + menu burger -->
+<header class="header">
+  
+  <div class="header-inner container">
+    <a href="javascript:void(0)" class="logo">
+      <img src="images/Tzatiki_logo-removebg-preview.png" alt="Logo">
+    </a>
+    <button class="burger" id="burger" aria-label="Menu">☰</button>
+  </div>
+
+  <nav class="side-menu" id="side-menu">
+    <button class="close-btn" id="close-btn">✕</button>
+    <ul>
+      <li><a href="index.html">Accueil</a></li>
+      <li><a href="shop.html">Shop</a></li>
+      <li><a href="portfolio.html">Portfolio</a></li>
+      <li><a href="Blog.html">Blog</a></li>
+      <li><a href="experience.html">Expérience</a></li>
+      <li><a href="contact.html" class="active">Contact</a></li>
+      <li><a href="about.html">À propos</a></li>
+      
+    </ul>
+  </nav>
+</header>
+
+<!-- Section Contact -->
+<main class="container contact-page fade-in">
+  <h1>Contactez-moi</h1>
+  <p>Vous pouvez me joindre via mes coordonnées ou en remplissant le formulaire ci-dessous.</p>
+
+  <!-- Coordonnées -->
+  <section class="contact-info">
+    <div class="info-card">
+      <h3>Email</h3>
+      <p>enzo.sakhinis@telecom-paris.fr</p>
+    </div>
+    <div class="info-card">
+      <h3>Téléphone</h3>
+      <p>+33 6 73 58 43 06</p>
+    </div>
+
+    <div class="info-card">
+      <h3>Réseaux sociaux</h3>
+      <p>
+        <a href="https://www.instagram.com/enzo.sks?igsh=MXJuNXppcmRmc21iNQ==">Instagram</a> |
+        <a href="https://www.linkedin.com/in/enzo-sakhinis">LinkedIn</a> |
+        <a href="https://github.com/Enzo-sks/hub-du-site">GitHub</a>
+      </p>
+    </div>
+  </section>
+
+  <!-- Formulaire -->
+  <section class="contact-form">
+    <form action="#" method="POST">
+      <input type="text" name="name" placeholder="Votre nom" required>
+      <input type="email" name="email" placeholder="Votre email" required>
+      <textarea name="message" placeholder="Votre message" rows="6" required></textarea>
+      <button type="submit" class="btn">Envoyer</button>
+    </form>
+  </section>
+</main>
+
+<!-- Footer -->
+<footer class="footer">
+  <p>© 2025 Tzatziki. Tous droits réservés.</p>
+</footer>
+
+<button id="toggleDark" aria-label="Activer/Désactiver mode nuit">🌙</button>
+
+<script src="script.js"></script>
+</body>
+</html>
